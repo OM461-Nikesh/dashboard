@@ -12,7 +12,7 @@ const AboutPage: NextPage = () => {
         <meta name="description" content="About page description" />
       </Head>
       <Typography component={'h1'} variant="h1">
-        Home Page
+        About Page
       </Typography>
       <Typography component={'h2'} variant="h2">
         <Link href={'/'}> back home</Link>
