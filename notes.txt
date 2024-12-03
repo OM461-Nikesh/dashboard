@@ -1,1 +1,2 @@
-test
+Automatic installation
+Command - npx create-next-app@latest
