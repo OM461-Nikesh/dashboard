@@ -21,7 +21,7 @@ const HomePage: NextPage = () => {
       </Head>
       <Box>
         <Typography component={'h1'} variant="h1">
-          Home Page
+         Dashboard
         </Typography>
         <Typography component={'h2'} variant="h2">
           <Link href={'/about'}> about page</Link>
