@@ -5,3 +5,12 @@
 body {
   background: rgba(247, 248, 248, 1);
 }
+
+a {
+  color: #006bd6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -62,6 +62,9 @@ const theme = createTheme({
         body: {
           backgroundColor: ThemeColors.background,
         },
+        Link: {
+          color: 'red',
+        },
       },
     },
     MuiAlert: {
@@ -147,6 +150,18 @@ const theme = createTheme({
           '&.MuiInputLabel-animated': {
             background: ThemeColors.white,
             padding: '0 8px',
+          },
+        },
+      },
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          color: ThemeColors.link,
+          textDecoration: 'none',
+
+          '&:hover': {
+            textDecoration: 'underline',
           },
         },
       },

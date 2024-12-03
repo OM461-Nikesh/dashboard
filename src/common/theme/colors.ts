@@ -35,6 +35,7 @@ const BrandColors = {
   gray7: '#f1f1f1', // #f6f6f6
   red: '#d32f2f',
   tableBorder: 'rgba(0, 0, 0, 0.12)',
+  link: '#006bd6',
 } as const
 
 export const ThemeColors = {
