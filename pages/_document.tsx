@@ -9,7 +9,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <link rel="icon" type="image/x-icon" href="favIcon.png" />
+          <link rel="icon" type="image/x-icon" href="./favicon.png" />
         </Head>
         <body>
           <Main />
