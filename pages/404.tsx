@@ -1,5 +1,7 @@
 import { PageNotFound } from '@/common/component/PageNotFound'
 
-export const Custom404 = () => {
+const Custom404 = () => {
   return <PageNotFound />
 }
+
+export default Custom404
